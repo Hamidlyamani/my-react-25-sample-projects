@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.sidebar{
+    width: 20%;
+background:rgb(1, 1, 102);
+color: white;
+position: relative;
+padding: 20px 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+font-weight: 700;
+}
+.item{
+}
+ .content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.children{
+    padding: 10px 0px;
+   padding-left: 20px;
+}
+.active .children{
+   display: block;
+}
