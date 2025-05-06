@@ -1,0 +1,24 @@
+.tab_container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;  
+}
+.tab{
+    padding: 16px 64px;
+background-color: aqua;
+color: black;
+cursor: pointer;
+
+}
+.content{
+    width: 40%;
+    margin:20px auto;
+    border: 1px solid orange;
+    padding: 40px;
+}
+.tabContent{
+    display: none;
+}
+.tabContent.active{
+    display: block;
+}
